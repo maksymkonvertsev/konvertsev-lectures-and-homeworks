@@ -162,3 +162,30 @@ console.log(result1);
 //9.*  Використовуючи оператор if реалізувати логіку переводу метрів в кілометри,
 //    так щоб в консоль виводився результат обчислень з правильним закінченням.
 //    Наприклад: 1000 метрів це 1 кілометр;  32 метри це 0,032 кілометра і т.д.
+
+  let meters = 34;
+  let kilometers = meters/1000;
+  let lastDigitMeter = meters % 10;
+  let lastDigitKilometer = kilometers ;
+
+  if (lastDigitMeter == 0){
+    console.log(meters + ' метрів це ' + kilometers + ' кілометр')
+  } else if (lastDigitMeter == 1){
+    console.log(meters + ' метр це ' + kilometers + ' кілометр')
+  } else if (lastDigitMeter == 2){
+    console.log(meters + ' метри це ' + kilometers + ' кілометри')
+  } else if (lastDigitMeter == 3){
+    console.log(meters + ' метри це ' + kilometers + ' кілометри')
+  } else if (lastDigitMeter == 4){
+    console.log(meters + ' метри це ' + kilometers + ' кілометри')
+  } else if (lastDigitMeter == 5){
+    console.log(meters + ' метрів це ' + kilometers + ' кілометрів')
+  } else if (lastDigitMeter == 6){
+    console.log(meters + ' метрів це ' + kilometers + ' кілометрів')
+  } else if (lastDigitMeter == 7){
+    console.log(meters + ' метрів це ' + kilometers + ' кілометрів')
+  } else if (lastDigitMeter == 8){
+    console.log(meters + ' метрів це ' + kilometers + ' кілометрів')
+  } else if (lastDigitMeter == 9){
+    console.log(meters + ' метрів це ' + kilometers + ' кілометрів')
+  }
